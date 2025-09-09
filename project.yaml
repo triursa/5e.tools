@@ -1,0 +1,48 @@
+project:
+  name: 5e.tools Functionality
+  description: >
+    A comprehensive suite of tools and reference data tailored to
+    5th Edition Dungeons & Dragons players and Dungeon Masters,
+    enabling quick lookups, calculations, and content integration for gameplay.
+
+functionality:
+  players:
+    - species
+    - classes
+    - feats
+    - options_and_features
+    - backgrounds
+    - items
+    - spells
+    - stat_generator
+
+  rules:
+    - adventures
+    - books
+    - rules_glossary
+    - conditions
+
+  dungeon_masters:
+    - bestiary
+    - dm_screen
+    - loot_generator
+    - cr_calculator
+
+  self_hosting:
+    description: Host static web version via basic web server by copying files into server root directory :contentReference[oaicite:0]{index=0}
+
+  user_experience:
+    - advanced_search_and_filters
+    - fast_loading_performance
+    - progressive_web_app (PWA) behavior
+    - local_storage_for_user_data
+    - state_backup_export  # e.g., 5eTools.json
+    - homebrew_builder
+    - encounter_builder
+    - dice_roller
+    - initiative_tracker
+
+  troubleshooting_and_support:
+    - faq_and_guides
+    - community_discord_support
+    - known_issues_and_submission_workflow
