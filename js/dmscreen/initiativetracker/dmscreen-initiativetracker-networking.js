@@ -1,4 +1,3 @@
-
 class _InitiativeTrackerNetworkingP2pMetaV1 {
 	constructor () {
 		this.rows = [];
@@ -184,7 +183,7 @@ export class InitiativeTrackerNetworking {
 		const $btnGetLink = $(`<button class="btn btn-default" disabled><span class="glyphicon glyphicon-link"></span> Copy Link</button>`).appendTo($wrpHelp)
 			.click(async () => {
 				const cleanOrigin = window.location.origin.replace(/\/+$/, "");
-				const url = `${cleanOrigin}/inittrackerplayerview.html#v1:${this._p2pMetaV1.serverPeer.token}`;
+				const url = `${cleanOrigin}`; // lean build: removed separate player view page
 				await MiscUtil.pCopyTextToClipboard(url);
 				JqueryUtil.showCopiedEffect($btnGetLink);
 			});
@@ -195,12 +194,7 @@ export class InitiativeTrackerNetworking {
 		$$`<div class="row w-100">
 			<div class="col-12">
 				<p>
-				The Player View is part of a peer-to-peer system to allow players to connect to a DM's initiative tracker. Players should use the <a href="inittrackerplayerview.html">Initiative Tracker Player View</a> page to connect to the DM's instance. As a DM, the usage is as follows:
-				<ol>
-					<li>Start the server.</li>
-					<li>Copy your link/token and share it with your players.</li>
-					<li>Wait for them to connect!</li>
-				</ol>
+				The Player View feature has been removed in this lean build; direct peer connections disabled.
 				</p>
 				<p>${$btnStartServer}${$btnGetLink}${$btnGetToken}</p>
 				<p><i>Please note that this system is highly experimental. Your experience may vary.</i></p>

@@ -2760,15 +2760,11 @@ UrlUtil.PG_VEHICLES = "vehicles.html";
 UrlUtil.PG_CHARACTERS = "characters.html";
 UrlUtil.PG_ACTIONS = "actions.html";
 UrlUtil.PG_LANGUAGES = "languages.html";
-UrlUtil.PG_STATGEN = "statgen.html";
-UrlUtil.PG_LIFEGEN = "lifegen.html";
-UrlUtil.PG_NAMES = "names.html";
+// Lean build: removed statgen.html, lifegen.html, names.html
 UrlUtil.PG_DM_SCREEN = "dmscreen.html";
-UrlUtil.PG_CR_CALCULATOR = "crcalculator.html";
-UrlUtil.PG_ENCOUNTERGEN = "encountergen.html";
-UrlUtil.PG_LOOTGEN = "lootgen.html";
+// Lean build: removed crcalculator.html, encountergen.html, lootgen.html
 UrlUtil.PG_TEXT_CONVERTER = "converter.html";
-UrlUtil.PG_CHANGELOG = "changelog.html";
+// Removed UrlUtil.PG_CHANGELOG (changelog.html) in lean build
 UrlUtil.PG_CHAR_CREATION_OPTIONS = "charcreationoptions.html";
 UrlUtil.PG_RECIPES = "recipes.html";
 UrlUtil.PG_CLASS_SUBCLASS_FEATURES = "classfeatures.html";
@@ -2918,13 +2914,9 @@ UrlUtil.PG_TO_NAME[UrlUtil.PG_VEHICLES] = "Vehicles";
 // UrlUtil.PG_TO_NAME[UrlUtil.PG_CHARACTERS] = "";
 UrlUtil.PG_TO_NAME[UrlUtil.PG_ACTIONS] = "Actions";
 UrlUtil.PG_TO_NAME[UrlUtil.PG_LANGUAGES] = "Languages";
-UrlUtil.PG_TO_NAME[UrlUtil.PG_STATGEN] = "Stat Generator";
-UrlUtil.PG_TO_NAME[UrlUtil.PG_LIFEGEN] = "This Is Your Life";
-UrlUtil.PG_TO_NAME[UrlUtil.PG_NAMES] = "Names";
+// Lean build: removed Stat Generator, This Is Your Life, Names
 UrlUtil.PG_TO_NAME[UrlUtil.PG_DM_SCREEN] = "DM Screen";
-UrlUtil.PG_TO_NAME[UrlUtil.PG_CR_CALCULATOR] = "CR Calculator";
-UrlUtil.PG_TO_NAME[UrlUtil.PG_ENCOUNTERGEN] = "Encounter Generator";
-UrlUtil.PG_TO_NAME[UrlUtil.PG_LOOTGEN] = "Loot Generator";
+// Lean build: removed CR Calculator, Encounter Generator, Loot Generator
 UrlUtil.PG_TO_NAME[UrlUtil.PG_TEXT_CONVERTER] = "Text Converter";
 UrlUtil.PG_TO_NAME[UrlUtil.PG_CHANGELOG] = "Changelog";
 UrlUtil.PG_TO_NAME[UrlUtil.PG_CHAR_CREATION_OPTIONS] = "Other Character Creation Options";
